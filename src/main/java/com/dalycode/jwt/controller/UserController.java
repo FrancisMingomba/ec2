@@ -12,4 +12,9 @@ public class UserController {
     public String home() {
         return "It's works";
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "yeshua";
+    }
 }
