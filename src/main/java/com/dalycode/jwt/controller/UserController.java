@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("/test")
     public String home() {
-        return "It's works";
+        return "It's works again";
     }
 
     @GetMapping("/try")
